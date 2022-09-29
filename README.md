@@ -99,3 +99,6 @@ These easter eggs help make the icing of the cake in this website.
 On the home page, in the desktop version, if the user goes over the right area of the page, some small squares will appear on hover. These squares represent focus points of a camera viewfinder. If a user clicks on a focus point, the hole webpage will make a blur-and-focus animation and reproduce a focus sound, as a professional camera does. Once clicked, that focus point turns into red, indicating that it is focused on that part.
 
 <img src="/img/focus-points.png">
+
+A real camera viewfinder looks like this. (public image from flickr of a Nikon d850 viewfinder)
+<img src="https://live.staticflickr.com/4351/36349095414_69213923e7_b.jpg">
