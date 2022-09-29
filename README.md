@@ -21,7 +21,7 @@ It has an administration section where the owner of the website (in this case th
 The hole webpage has a glass-styled theme for some elements. This gives a premium and unique look.
 
 <img src="/img/glass-example-1.png" alt="Capture of the main page">
-<img src="/img/glass-example-mobile.png" alt="Capture of a collection in mobile mode" width="300">
+<img src="/img/glass-example-mobile.jpg" alt="Capture of a collection in mobile mode" width="300">
 
 ## Dark mode
 
