@@ -98,6 +98,20 @@ Note that there is also a lazy loading version. The lazy loading is a very low q
 
 If a user has poor connectivity, an image can take some seconds to load (even after compression). So, the user is shown with a preview of the image in order to say "Hey, here is an image that is loading". This preview is the lazy loading image, that is a low quality and blurred version of the image that is loading. Once the original image is loaded, it is shown on top of the lazy loading.
 
+## Some technical aspects
+
+### Main technologies
+
+TODO React, other useful libraries
+
+### State
+
+TODO react context
+
+### Backend
+
+TODO There might be more things
+
 ## Some easter eggs
 
 These easter eggs help make the icing of the cake in this website.
