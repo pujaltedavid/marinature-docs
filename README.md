@@ -51,6 +51,14 @@ On mobile, only the back button and a hamburguer button is visible. The hamburgu
 
 There are other differences between mobile and desktop, like the layout or shape of some containers.
 
+## Image Visualization
+
+TODO
+
+## Login and Administrator zone
+
+TODO
+
 ## Low connection friendly
 
 ### Website loader
