@@ -24,8 +24,16 @@ So, both the desktop and mobile version are responsive, but some components are 
 
 For example, the header is pretty different from desktop and mobile.
 On desktop, it consists of three sections, the back button, home button and dark mode and sound toggle. These are visible by default (except on homepage, where there is no back or home button).
+
 <img src="/img/header-desktop.png" 
 alt="HEADER DESKTOP"/>
+
+On mobile, only the back button and a hamburguer button is visible. The hamburguer displays a small configuration zone, with home button, dark mode and sound toggle. It is styled as a scrollable notification panel like a mobile will have. The user can also close it scrolling.
+
+<img src="./img/header-mobile-1.png" alt="HEADER MOBILE CLOSED">
+<img src="./img/header-mobile-2.png" alt="HEADER MOBILE OPEN">
+
+There are other differences between mobile and desktop, like the layout or shape of some containers.
 
 ## Low connection friendly
 
