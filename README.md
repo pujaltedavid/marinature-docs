@@ -100,5 +100,5 @@ On the home page, in the desktop version, if the user goes over the right area o
 
 <img src="/img/focus-points.png">
 
-A real camera viewfinder looks like this. (public image from flickr of a Nikon d850 viewfinder)
-<img src="https://live.staticflickr.com/4351/36349095414_69213923e7_b.jpg">
+A real camera viewfinder looks like this. (public image from [digital-photography-school.com](https://digital-photography-school.com/))
+<img src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2016/01/cross-type-focus-sensors-leaf.jpg?fit=750%2C500&ssl=1">
