@@ -16,6 +16,19 @@ It has an administration section where the owner of the website (in this case th
 
 # Main features
 
+## Glass design
+
+The hole webpage has a glass-styled theme for some elements. This gives a premium and unique look.
+
+<img src="glass-example-1.png" alt="Capture of the main page">
+
+## Dark mode
+
+The website has light and dark mode. Whenever switched, the background changes, along with filters, font color and colors of some elements. All this changes are animated. There is a switch present in all pages to toggle the theme.
+
+<img src="glass-example-2.png" alt="Collections page light mode">
+<img src="glass-example-3.png" alt="Collections page dark mode">
+
 ## Responsive
 
 The app uses the [react-device-detect](https://github.com/duskload/react-device-detect) library. This helps knowing whether the user is visiting the site from desktop, mobile, tablet etc. Some components of the app are rendered differently from mobile or desktop. However, if the desktop has a mobile shaped screen, it renders the mobile version too. But if the user visits from a mobile or tablet with an horizontal screen, it uses also the mobile version.
