@@ -102,3 +102,11 @@ On the home page, in the desktop version, if the user goes over the right area o
 
 A real camera viewfinder looks like this. (public image from [digital-photography-school.com](https://digital-photography-school.com/))
 <img src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2016/01/cross-type-focus-sensors-leaf.jpg?fit=750%2C500&ssl=1" alt="CAMERA FOCUS POINTS" width="500">
+
+### Dark Theme sound
+
+Whenever the user toggles the theme from light to dark, some nocturnal animal sounds are reproduced. There are a bunch of sounds and they play in random order on theme toggle.
+
+### Draggable elements
+
+Some glass elements, like the ones in the main page, can be dragged by the user on desktop and mobile and move them around the page. They normally come back to place, but sometimes they don't.
