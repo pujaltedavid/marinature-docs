@@ -19,6 +19,7 @@ It has an administration section where the owner of the website (in this case th
 ## Glass design
 
 The hole webpage has a glass-styled theme for some elements. This gives a premium and unique look.
+However, this comes at some cost. The blur that backdrop filter css property gives, even that it has pretty good browser compatibility, it may slow down the page if there are a lot of elements using it. However, since the background is blurred on all the pages that are not the main page, a nice trick can be done. The elements in front of the blurred background do not need to have this backdrop filter property, a change in background color and transparency gives the same feeling. This trick can be used when there are no other elements in the back.
 
 <img src="/img/glass-example-1.png" alt="Capture of the main page">
 <img src="/img/glass-example-mobile.jpg" alt="Capture of a collection in mobile mode" width="300">
