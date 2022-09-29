@@ -31,21 +31,21 @@ Each images are sharpened using a unsharp mask (implemented via kernel and convo
 The following table shows all the sizes:
 
 | Full size | Fixed Width size | Resolution name |
-| :-------- | :--------------: | --------------: |
-| LZ-FULL   |      200px       |    Lazy loading |
-| FULL-XS   |      480px       |              SD |
-| FULL-S    |      720px       |              HD |
-| FULL-M    |      1080px      |          FullHD |
-| FULL-L    |      1280px      |           WUXGA |
-| FULL-XL   |      1440px      |          2k/QHD |
-| FULL-XXL  |      2160px      |          4k/UHD |
+| :-------: | :--------------: | :-------------: |
+|  LZ-FULL  |      200px       |  Lazy loading   |
+|  FULL-XS  |      480px       |       SD        |
+|  FULL-S   |      720px       |       HD        |
+|  FULL-M   |      1080px      |     FullHD      |
+|  FULL-L   |      1280px      |      WUXGA      |
+|  FULL-XL  |      1440px      |     2k/QHD      |
+| FULL-XXL  |      2160px      |     4k/UHD      |
 
-| Square size |    Size |
-| :---------- | ------: |
-| LZ-SQ       |   50x50 |
-| SQ-S        |   50x50 |
-| SQ-M        | 200x200 |
-| SQ-L        | 400x400 |
+| Square size |  Size   |
+| :---------: | :-----: |
+|    LZ-SQ    |  50x50  |
+|    SQ-S     |  50x50  |
+|    SQ-M     | 200x200 |
+|    SQ-L     | 400x400 |
 
 So, for each user a different image may be loaded. For example, on a 1080p screen, the M version will be loaded, and on a low-end laptop a XS may be loaded. The user gets the image that their screen needs. This helps reducing loading times, data and backend bandwidth.
 
