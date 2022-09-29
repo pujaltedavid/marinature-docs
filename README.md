@@ -29,10 +29,10 @@ On desktop, it consists of three sections, the back button, home button and dark
 alt="HEADER DESKTOP"/>
 
 On mobile, only the back button and a hamburguer button is visible. The hamburguer displays a small configuration zone, with home button, dark mode and sound toggle. It is styled as a scrollable notification panel like a mobile will have. The user can also close it scrolling.
-
+<span>
 <img src="./img/header-mobile-1.png" alt="HEADER MOBILE CLOSED">
 <img src="./img/header-mobile-2.png" alt="HEADER MOBILE OPEN">
-
+</span>
 There are other differences between mobile and desktop, like the layout or shape of some containers.
 
 ## Low connection friendly
