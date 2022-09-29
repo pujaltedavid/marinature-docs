@@ -89,3 +89,13 @@ Note that there is also a lazy loading version. The lazy loading is a very low q
 ### Lazy loading images
 
 If a user has poor connectivity, an image can take some seconds to load (even after compression). So, the user is shown with a preview of the image in order to say "Hey, here is an image that is loading". This preview is the lazy loading image, that is a low quality and blurred version of the image that is loading. Once the original image is loaded, it is shown on top of the lazy loading.
+
+## Some easter eggs
+
+These easter eggs help make the icing of the cake in this website.
+
+### Camera focus points
+
+On the home page, in the desktop version, if the user goes over the right area of the page, some small squares will appear on hover. These squares represent focus points of a camera viewfinder. If a user clicks on a focus point, the hole webpage will make a blur-and-focus animation and reproduce a focus sound, as a professional camera does. Once clicked, that focus point turns into red, indicating that it is focused on that part.
+
+<img src="/img/focus-points.png">
