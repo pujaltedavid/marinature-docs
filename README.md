@@ -20,14 +20,14 @@ It has an administration section where the owner of the website (in this case th
 
 The hole webpage has a glass-styled theme for some elements. This gives a premium and unique look.
 
-<img src="glass-example-1.png" alt="Capture of the main page">
+<img src="/img/glass-example-1.png" alt="Capture of the main page">
 
 ## Dark mode
 
 The website has light and dark mode. Whenever switched, the background changes, along with filters, font color and colors of some elements. All this changes are animated. There is a switch present in all pages to toggle the theme.
 
-<img src="glass-example-2.png" alt="Collections page light mode">
-<img src="glass-example-3.png" alt="Collections page dark mode">
+<img src="/img/glass-example-2.png" alt="Collections page light mode">
+<img src="/img/glass-example-3.png" alt="Collections page dark mode">
 
 ## Responsive
 
