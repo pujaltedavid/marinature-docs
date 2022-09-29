@@ -102,7 +102,7 @@ If a user has poor connectivity, an image can take some seconds to load (even af
 
 ### Main technologies
 
-TODO React, other useful libraries
+TODO React, other useful libraries, firebase
 
 ### State
 
@@ -132,3 +132,7 @@ Whenever the user toggles the theme from light to dark, some nocturnal animal so
 ### Draggable elements
 
 Some glass elements, like the ones in the main page, can be dragged by the user on desktop and mobile and move them around the page. They normally come back to place, but sometimes they don't.
+
+# TODO
+
+separar coses de disseny de coses de responsive i low connection, de coses de backend i technologies
