@@ -42,6 +42,8 @@ So, now we know that the majority of spring-like animations in the web page are 
 
 ![Homepage animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/animation-homepage.gif)
 ![Dark mode animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/animation-darkmode.gif)
+![Full image animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/animation-fullimage.gif)
+![Exif animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/animation-exif.gif)
 
 ## Responsive
 
