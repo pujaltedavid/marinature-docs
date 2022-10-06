@@ -34,9 +34,9 @@ The website has light and dark mode. Whenever switched, the background changes, 
 
 ## Animations
 
-The hole webpage is filled with transitions and animations. The `framer-motion` library is used. In order to animate components between routes, Animate Presence is used. This feature allows us to animate the unmounting of components and the mounting of new components at the same time. Without this library, the unmounting animation will not be easy to reproduce.
+The hole webpage is filled with transitions and animations. The [Framer motion](https://www.framer.com/motion/) library is used. In order to animate components between routes, Animate Presence is used. This feature allows us to animate the unmounting of components and the mounting of new components at the same time. Without this library, the unmounting animation will not be easy to reproduce.
 
-However, all this animations come at some cost. At first, spring-like animations were used. This kind of animations rely on physics spring formulas (Hooke's Law) that depend on some spring parameters, not time [(Learn more about Spring Animations)](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/). This animations use javascript, and they are pretty cool, but once they are scaled up and used on some low end browser, they start to lag. Since the parameters for the spring animations are fixed (once you find the "best looking animation"), one can do a cool trick. This javascript animations can be replaced with nearly identical css animations using Bezier Curves.
+However, all this animations come at some cost. At first, spring-like animations were used. This kind of animations rely on physics spring formulas (Hooke's Law) that depend on some spring parameters, not time ([Learn more about Spring Animations](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)). This animations use javascript, and they are pretty cool, but once they are scaled up and used on some low end browser, they start to lag. Since the parameters for the spring animations are fixed (once you find the "best looking animation"), one can do a cool trick. This javascript animations can be replaced with nearly identical css animations using Bezier Curves.
 
 So, now we know that the majority of spring animations in the web page are made using css only, for performance.
 
