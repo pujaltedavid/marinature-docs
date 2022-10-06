@@ -70,8 +70,10 @@ In the normal mode, the image is seen with its name, scientific name and descrip
 
 Also, this component is slightly different on desktop and mobile. The major difference is that, on desktop, it tends to have more margins and free space, also the user can navigate through the images with the keyboard keys. On mobile, the layout is more streched and the user can scroll through images. The layout is like that because mobiles tend to have an aspect ratio much pronounced that desktop, and because of that, images may appear smaller, specially horizontal images in vertical layouts and viceversa. On both approaches, there are clickable keys on the screen to navigate too.
 
+<p float="left">
 <img src="./img/image-visualization-1.png" alt="DESKTOP IMAGE VISUALIZATION">
 <img src="./img/image-visualization-3.png" alt="MOBILE IMAGE VISUALIZATION" width='240' height='488'>
+</p>
 
 One thing to consider is that this component is not finished yet, as there are some not common layout combinations that can be improved, like unusual image and screen aspect ratios.
 
@@ -83,8 +85,8 @@ The little camera icon on lower left opens the exif menu. This menu shows the ca
 
 <img src="./img/image-visualization-2.png" alt="DESKTOP FULL SCREEN IMAGE VISUALIZATION">
 <p float="left">
-<img src="./img/image-visualization-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION EXIF MENU" width='240' height='488'>
 <img src="./img/image-visualization-5.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='488'>
+<img src="./img/image-visualization-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION EXIF MENU" width='240' height='488'>
 </p>
 
 ## Login and Administrator zone
