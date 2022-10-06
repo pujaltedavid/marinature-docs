@@ -54,9 +54,10 @@ alt="HEADER DESKTOP"/>
 
 On mobile, only the back button and a hamburguer button is visible. The hamburguer displays a small configuration zone, with home button, dark mode and sound toggle. It is styled as a scrollable notification panel like a mobile will have. The user can also close it scrolling.
 
+<p float="left">
 <img src="./img/header-mobile-1.png" alt="HEADER MOBILE CLOSED" width="270" height="92">
 <img src="./img/header-mobile-2.png" alt="HEADER MOBILE OPEN" width="270" height="92">
-
+</p>
 There are other differences between mobile and desktop, like the layout or shape of some containers.
 
 ## Image Visualization
