@@ -34,11 +34,11 @@ The website has light and dark mode. Whenever switched, the background changes, 
 
 ## Animations
 
-The hole webpage is filled with transitions and animations. The [Framer motion](https://www.framer.com/motion/) library is used. In order to animate components between routes, [Animate Presence](https://www.framer.com/docs/animate-presence/) is used. This feature allows us to animate the unmounting of components and the mounting of new components at the same time. Without this library, the unmounting animation will not be easy to reproduce.
+The hole webpage is filled with transitions and animations with the help of [Framer motion](https://www.framer.com/motion/) library. In order to animate components between routes, [Animate Presence](https://www.framer.com/docs/animate-presence/) is used. This feature allows us to animate the mounting and unmounting components from the react three at the same time. Without this library, the unmounting animation will not be straightforward to reproduce.
 
-However, all this animations come at some cost. At first, spring-like animations were used. This kind of animations rely on physics spring formulas (Hooke's Law) that depend on some spring parameters, not time ([Learn more about Spring Animations](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)). This animations use javascript, and they are pretty cool, but once they are scaled up and used on some low end browser, they start to lag. Since the parameters for the spring animations are fixed (once you find the "best looking animation"), one can do a cool trick. This javascript animations can be replaced with nearly identical css animations using Bezier Curves.
+However, all this animations come at some cost. At first, spring-like animations were used. This kind of animations rely on physics spring formulas (Hooke's Law) that depend on some spring parameters, not time, like regular animations ([Learn more about Spring Animations](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/)). This animations use javascript, and they are pretty cool, but once they are scaled up and used on some low end browser, they start to lag. Since the parameters for the spring animations are fixed (once you find the "best looking animation"), one can do a cool trick. This javascript animations can be replaced with nearly identical css animations using Bezier Curves.
 
-So, now we know that the majority of spring animations in the web page are made using css only, for performance.
+So, now we know that the majority of spring-like animations in the web page are made using css only, for performance.
 
 ## Responsive
 
@@ -61,7 +61,28 @@ There are other differences between mobile and desktop, like the layout or shape
 
 ## Image Visualization
 
-TODO
+This component was not trivial to do. It fact, it is the most important one, as the webpage is intended to visualize images. It has two modes, the normal and fullscreen mode.
+
+### Normal Mode
+
+In the normal mode, the image is seen with its name, scientific name and description, if provided by the author of the webpage. So, an image can have this information or not. In this mode, the image may take the most space possible, taking into account that the description information have to be seen and not overlapped by the image nor the borders of the card. Also, there are some more important factors, like the orientation and aspect ratio of both the image and the screen of the user. The calculation of how much space the image and the description take in the screen is mainly done with javascript, because of the parameters that it depends.
+
+Also, this component is slightly different on desktop and mobile. The major difference is that, on desktop, it tends to have more margins and free space, also the user can navigate through the images with the keyboard keys. On mobile, the layout is more streched and the user can scroll through images. The layout is like that because mobiles tend to have an aspect ratio much pronounced that desktop, and because of that, images may appear smaller, specially horizontal images in vertical layouts and viceversa. On both approaches, there are clickable keys on the screen to navigate too.
+
+<img src="./img/image-visualization-1.png" alt="DESKTOP IMAGE VISUALIZATION">
+<img src="./img/image-visualization-3.png" alt="MOBILE IMAGE VISUALIZATION">
+
+One thing to consider is that this component is not finished yet, as there are some not common layout combinations that can be improved, like unusual image and screen aspect ratios.
+
+### Full Screen Mode
+
+The little icon on the lower right opens the image in full screen mode. This makes a more immersive experience, as only the image is visualized with a blurred background. The background also changes its color depending on the image, it takes the predominant color. That is done with the help of [Color thief](https://lokeshdhakar.com/projects/color-thief/) library. The description information is not visualized in this mode. Also, the navigation can be done by scrolling on mobile and with keys in the screen or keyboard on desktop. The carrousell is made with the help of [react-image-gallery](https://github.com/xiaolin/react-image-gallery) library with some tweaks. The main tweak is that not all the images are visible when the component is mounted, unlike the library does. This helps with scroll lag on mobile, because if all the images are visible, when scrolling one, all the others are scrolled at the same time. Imagine that with about 50 images with great resolution. This way, images appear dinamically when they are going to be seen, and the scrolling is much more smooth compared with the original approach.
+
+The little camera icon on lower left opens the exif menu. This menu shows the camera settings when the image was taken. It is a pretty good option for photographers, because sometimes they can see how the image was made and what photography lens was used. However, `.png` images or images created from scratch with an editing software like Photoshop, may not contain this information, and hence the icon is not shown. This menu has a little white shadow on normal mode and dark shadow on full screen mode, to enhance contrast with the image if they overlap.
+
+<img src="./img/image-visualization-2.png" alt="DESKTOP FULL SCREEN IMAGE VISUALIZATION">
+<img src="./img/image-visualization-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION EXIF MENU">
+<img src="./img/image-visualization-5.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION">
 
 ## Login and Administrator zone
 
