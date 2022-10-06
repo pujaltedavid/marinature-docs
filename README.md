@@ -81,8 +81,10 @@ The little icon on the lower right opens the image in full screen mode. This mak
 The little camera icon on lower left opens the exif menu. This menu shows the camera settings when the image was taken. It is a pretty good option for photographers, because sometimes they can see how the image was made and what photography lens was used. However, `.png` images or images created from scratch with an editing software like Photoshop, may not contain this information, and hence the icon is not shown. This menu has a little white shadow on normal mode and dark shadow on full screen mode, to enhance contrast with the image if they overlap.
 
 <img src="./img/image-visualization-2.png" alt="DESKTOP FULL SCREEN IMAGE VISUALIZATION">
+<p float="left">
 <img src="./img/image-visualization-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION EXIF MENU" width='240' height='488'>
 <img src="./img/image-visualization-5.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='488'>
+</p>
 
 ## Login and Administrator zone
 
