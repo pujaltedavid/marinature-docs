@@ -40,7 +40,7 @@ However, all this animations come at some cost. At first, spring-like animations
 
 So, now we know that the majority of spring-like animations in the web page are made using css only, for performance.
 
-<img src="/img/animation/homepage.gif">
+![Homepage animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/animation-homepage.gif)
 
 ## Responsive
 
