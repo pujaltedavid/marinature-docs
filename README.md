@@ -20,7 +20,7 @@ It has an administration section where the owner of the website (in this case th
 
 The hole webpage has a glass-styled theme for some elements. This gives a premium and unique look.
 
-However, this comes at some cost. The blur that backdrop filter css property gives, even that it has pretty good browser compatibility, it may slow down the page if there are a lot of elements using it. However, since the background is blurred on all the pages that are not the main page, a nice trick can be done. The elements in front of the blurred background do not need to have this backdrop filter property, a change in background color and transparency gives the same feeling. This trick can be used when there are no other elements in the back.
+However, this comes at some cost. The blur that backdrop filter css property gives, even that it has pretty good browser compatibility, it may slow down the page if there are a lot of elements using it. However, since the background is blurred on all the pages except for the main page, a nice trick can be done. The elements in front of the blurred background do not need to have this backdrop filter property, a change in background color and transparency gives the same feeling. This trick can be used when there are no other elements in the back.
 
 <img src="/img/glass-example-1.png" alt="Capture of the main page">
 <img src="/img/glass-example-mobile.jpg" alt="Capture of a collection in mobile mode" width="300">
@@ -31,6 +31,14 @@ The website has light and dark mode. Whenever switched, the background changes, 
 
 <img src="/img/glass-example-2.png" alt="Collections page light mode">
 <img src="/img/glass-example-3.png" alt="Collections page dark mode">
+
+## Animations
+
+The hole webpage is filled with transitions and animations. The `framer-motion` library is used. In order to animate components between routes, Animate Presence is used. This feature allows us to animate the unmounting of components and the mounting of new components at the same time. Without this library, the unmounting animation will not be easy to reproduce.
+
+However, all this animations come at some cost. At first, spring-like animations were used. This kind of animations rely on physics spring formulas (Hooke's Law) that depend on some spring parameters, not time [(Learn more about Spring Animations)](https://blog.maximeheckel.com/posts/the-physics-behind-spring-animations/). This animations use javascript, and they are pretty cool, but once they are scaled up and used on some low end browser, they start to lag. Since the parameters for the spring animations are fixed (once you find the "best looking animation"), one can do a cool trick. This javascript animations can be replaced with nearly identical css animations using Bezier Curves.
+
+So, now we know that the majority of spring animations in the web page are made using css only, for performance.
 
 ## Responsive
 
@@ -59,14 +67,14 @@ TODO
 
 TODO
 
-## Low connection friendly
+# Low connection friendly
 
-### Website loader
+## Website loader
 
 The bundle of the hole website is lower than 300kB, however the user may not have a good internet connection and wait for the page to load. Also, the background image has to be considered and the information from the database. There is an animated loader for the website that dissappears when the bundle, the background image and the data from the database has been loaded.
 This avoids showing the website without a background, or prevent interaction before loading the database information.
 
-### Image compression
+## Image compression
 
 Whenever the owner uploads an image, several versions of that image are created. Some mantaining the original aspect ratio and some others are cropped as square, the ones that act as a miniature.
 Each images are sharpened using a unsharp mask (implemented via kernel and convolution), compressed and converted into .webp type, as they are intended to be seen on the web.
@@ -94,29 +102,29 @@ So, for each user a different image may be loaded. For example, on a 1080p scree
 
 Note that there is also a lazy loading version. The lazy loading is a very low quality image, around 0.5 kB for miniature and less than 3kB for the original. This leads to the following section.
 
-### Lazy loading images
+## Lazy loading images
 
 If a user has poor connectivity, an image can take some seconds to load (even after compression). So, the user is shown with a preview of the image in order to say "Hey, here is an image that is loading". This preview is the lazy loading image, that is a low quality and blurred version of the image that is loading. Once the original image is loaded, it is shown on top of the lazy loading.
 
-## Some technical aspects
+# Some technical aspects
 
-### Main technologies
+## Main technologies
 
 TODO React, other useful libraries, firebase
 
-### State
+## State
 
 TODO react context
 
-### Backend
+## Backend
 
 TODO There might be more things
 
-## Some easter eggs
+# Some easter eggs
 
 These easter eggs help make the icing of the cake in this website.
 
-### Camera focus points
+## Camera focus points
 
 On the home page, in the desktop version, if the user goes over the right area of the page, some small squares will appear on hover. These squares represent focus points of a camera viewfinder. If a user clicks on a focus point, the hole webpage will make a blur-and-focus animation and reproduce a focus sound, as a professional camera does. Once clicked, that focus point turns into red, indicating that it is focused on that part.
 
@@ -125,14 +133,10 @@ On the home page, in the desktop version, if the user goes over the right area o
 A real camera viewfinder looks like this. (public image from [digital-photography-school.com](https://digital-photography-school.com/))
 <img src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2016/01/cross-type-focus-sensors-leaf.jpg?fit=750%2C500&ssl=1" alt="CAMERA FOCUS POINTS" width="500">
 
-### Dark Theme sound
+## Dark Theme sound
 
 Whenever the user toggles the theme from light to dark, some nocturnal animal sounds are reproduced. There are a bunch of sounds and they play in random order on theme toggle.
 
-### Draggable elements
+## Draggable elements
 
 Some glass elements, like the ones in the main page, can be dragged by the user on desktop and mobile and move them around the page. They normally come back to place, but sometimes they don't.
-
-# TODO
-
-separar coses de disseny de coses de responsive i low connection, de coses de backend i technologies
