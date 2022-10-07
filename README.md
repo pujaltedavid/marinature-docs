@@ -105,6 +105,8 @@ TODO
 The bundle of the hole website is lower than 300kB, however the user may not have a good internet connection and wait for the page to load. Also, the background image has to be considered and the information from the database. There is an animated loader for the website that dissappears when the bundle, the background image and the data from the database has been loaded.
 This avoids showing the website without a background, or prevent interaction before loading the database information.
 
+![Loader animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/loader.gif)
+
 ## Image compression
 
 Whenever the owner uploads an image, several versions of that image are created. Some mantaining the original aspect ratio and some others are cropped as square, the ones that act as a miniature.
