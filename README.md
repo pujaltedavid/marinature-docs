@@ -104,6 +104,8 @@ Once the user has logged in, the dashboard is shown.
 <p float="left">
 <img src="./img/admin-mobile-1.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 <img src="./img/admin-mobile-2.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
+</p>
+<p float="left">
 <img src="./img/admin-mobile-3.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 <img src="./img/admin-mobile-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 </p>
