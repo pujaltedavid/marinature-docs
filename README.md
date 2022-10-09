@@ -98,13 +98,30 @@ The little camera icon on lower left opens the exif menu. This menu shows the ca
 
 When entering the [Admin zone](https://marinature.tk/admin), a username and password is asked. This account is created by the web developer and no one can create accounts other than them. It is intended to be used by the photographer to manage all his collections, photos and photo descriptions.
 
-Once the user has logged in, the dashboard is shown.
-<img src="./img/admin-1.png" alt="DESKTOP FULL SCREEN IMAGE VISUALIZATION">
+Once they have logged in, the dashboard is shown.
+<img src="./img/admin-1.png" alt="DESKTOP ADMIN DASHBOARD">
+
+It is a simplistic menu showing three cards, where the user can edit his collections, the [About Me](https://marinature.tk/about) page and can check his quota usage. The other settings panel, for now only allows to log out, but in the future the user will be able to change the background and About Me images, along with the password of his account.
+
+### Editing Collections
+
+<img src="./img/admin-2.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
+
+![Editing collections gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/admin-animation-1.gif)
+
+As seen in the animation above, the user can create, edit and delete collections easily. Each collection card has a menu in the upper right that allows to edit the title, hide or show the collection to the public and delete it. However, for safety reasons, the user can not delete a collection if it contains photos in it. They would have to delete the images first, and then delete the collection. If the user does not want to make a collection visible, for example because they are still uploading the images and completing the descriptions, they can just hide that collection.
+
+The amount of collections that can be created is unlimited, however, there is a quota limit for images. This limit is about 3500 images in total. It may seem pretty limited at a first glance, however, it has to be noticed that this website is intended to show off the best images of a photographer, not an entire photo shooting session.
+Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.com/hc/en-us/articles/4404079649300-Flickr-upload-requirements#:~:text=Note%3A%20Effective%20May%201%2C%202022,to%20uploading%20only%20Safe%20content.) only allows a maximum of 1000 images in its free account, [500px](https://500px.com/terms) allows a free maximum of 2000. However, if the photographer asked for more storage, it will be provided according to the Google Cloud Storage Pricing, more explained on [Backend](#backend) section.
 
 <p float="left">
 <img src="./img/admin-mobile-1.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 <img src="./img/admin-mobile-2.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 </p>
+
+### Editing images
+
+<img src="./img/admin-3.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
 <p float="left">
 <img src="./img/admin-mobile-3.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 <img src="./img/admin-mobile-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
