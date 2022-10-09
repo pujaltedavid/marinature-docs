@@ -96,7 +96,17 @@ The little camera icon on lower left opens the exif menu. This menu shows the ca
 
 ## Login and Administrator zone
 
-TODO
+When entering the (Admin zone)[https://marinature.tk/admin], a username and password is asked. This account is created by the web developer and no one can create accounts other than them. It is intended to be used by the photographer to manage all his collections, photos and photo descriptions.
+
+Once the user has logged in, the dashboard is shown.
+<img src="./img/admin-1.png" alt="DESKTOP FULL SCREEN IMAGE VISUALIZATION">
+
+<p float="left">
+<img src="./img/admin-mobile-1.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
+<img src="./img/admin-mobile-2.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
+<img src="./img/admin-mobile-3.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
+<img src="./img/admin-mobile-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
+</p>
 
 # Low connection friendly
 
