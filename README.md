@@ -128,6 +128,12 @@ Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.
 <img src="./img/admin-mobile-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 </p>
 
+### Editing About Me
+
+The photographer can easily edit the About Me page. They can change either the title of the page and the description about themself.
+
+<img src="./img/admin-4.png" alt="DESKTOP ADMIN EDIT ABOUT ME">
+
 # Low connection friendly
 
 ## Website loader
