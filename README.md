@@ -123,6 +123,8 @@ Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.
 
 <img src="./img/admin-3.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
 
+TODO
+
 <p float="left">
 <img src="./img/admin-mobile-3.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 <img src="./img/admin-mobile-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
