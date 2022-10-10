@@ -122,6 +122,7 @@ Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.
 ### Editing images
 
 <img src="./img/admin-3.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
+
 <p float="left">
 <img src="./img/admin-mobile-3.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 <img src="./img/admin-mobile-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
@@ -139,7 +140,7 @@ This avoids showing the website without a background, or prevent interaction bef
 ## Image compression
 
 Whenever the owner uploads an image, several versions of that image are created. Some mantaining the original aspect ratio and some others are cropped as square, the ones that act as a miniature.
-Each images are sharpened using a unsharp mask (implemented via kernel and convolution), compressed and converted into .webp type, as they are intended to be seen on the web.
+Each image is sharpened using a unsharp mask (implemented via kernel and convolution), compressed and converted into .webp type, as they are intended to be seen on the web.
 
 The following table shows all the sizes:
 
