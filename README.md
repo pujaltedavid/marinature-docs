@@ -6,12 +6,12 @@ The current web app can be visited at https://marinature.tk/
 
 # Jump quickly
 
-[What is Marinature](#what-is-marinature)  
-[Main design features](#main-design-features)
-[Low connection friendly](#low-connection-friendly)
-[Login and Administrator zone](#login-and-administrator-zone)
-[Technical aspects](#technical-aspects)
-[Some easter eggs](#some-easter-eggs)
+- [What is Marinature](#what-is-marinature)
+- [Main design features](#main-design-features)
+- [Low connection friendly](#low-connection-friendly)
+- [Login and Administrator zone](#login-and-administrator-zone)
+- [Technical aspects](#technical-aspects)
+- [Some easter eggs](#some-easter-eggs)
 
 # What is Marinature
 
