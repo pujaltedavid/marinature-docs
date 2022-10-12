@@ -14,7 +14,7 @@ It focuses mainly on user interaction and experience, where the user clicks or t
 
 It has an administration section where the owner of the website (in this case the photographer) manages all his collections, uploads their photos and edit their descriptions. Without any knowledge about programming or how the website works, just an easy to use interface.
 
-# Main features
+# Main design features
 
 ## Glass design
 
@@ -94,7 +94,7 @@ The little camera icon on lower left opens the exif menu. This menu shows the ca
 <img src="./img/image-visualization-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION EXIF MENU" width='240' height='488'>
 </p>
 
-## Login and Administrator zone
+# Login and Administrator zone
 
 When entering the [Admin zone](https://marinature.tk/admin), a username and password is asked. This account is created by the web developer and no one can create accounts other than them. It is intended to be used by the photographer to manage all his collections, photos and photo descriptions.
 
@@ -103,7 +103,7 @@ Once they have logged in, the dashboard is shown.
 
 It is a simplistic menu showing three cards, where the user can edit his collections, the [About Me](https://marinature.tk/about) page and can check his quota usage. The other settings panel, for now only allows to log out, but in the future the user will be able to change the background and About Me images, along with the password of his account.
 
-### Editing Collections
+## Editing Collections
 
 <img src="./img/admin-2.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
 
@@ -119,7 +119,7 @@ Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.
 <img src="./img/admin-mobile-2.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 </p>
 
-### Editing images
+## Editing images
 
 <img src="./img/admin-3.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
 
@@ -136,7 +136,7 @@ On the left menu it is indicated which the information about the photo is comple
 <img src="./img/admin-mobile-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
 </p>
 
-### Editing About Me
+## Editing About Me
 
 The photographer can easily edit the About Me page. They can change either the title of the page and the description about themself. The same information message about changes made (from the image edition section) is visible to show cloud status.
 
@@ -183,7 +183,7 @@ Note that there is also a lazy loading version. The lazy loading is a very low q
 
 If a user has poor connectivity, an image can take some seconds to load (even after compression). So, the user is shown with a preview of the image in order to say "Hey, here is an image that is loading". This preview is the lazy loading image, that is a low quality and blurred version of the image that is loading. Once the original image is loaded, it is shown on top of the lazy loading.
 
-# Some technical aspects
+# Technical aspects
 
 ## Main technologies
 
