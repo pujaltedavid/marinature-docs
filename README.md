@@ -196,7 +196,25 @@ The photographer can easily edit the About Me page. They can change either the t
 
 ## Main technologies
 
-TODO React, other useful libraries, firebase
+The app has been developed with JavaScript using [ReactJs](https://reactjs.org/) library. Functional components are used. All the hosting, database and backend in more general, is made using [Firebase](https://firebase.google.com/) within its [Free Tier](https://firebase.google.com/pricing). See the [backend](#backend) section for more details.
+
+Main libraries used:
+
+- [react-router-dom](https://reactrouter.com/en/main) to create routes, links and make navigation easier.
+- [framer-motion](https://www.framer.com/motion/) for cool and easy animations.
+- [react-fontawesome](https://fontawesome.com/v6/docs/) for cool free icons.
+- [react-device-detect](https://github.com/duskload/react-device-detect) for detecting browser devices.
+- [use-sound](https://github.com/joshwcomeau/use-sound), an easy hook to enable sound effects easily.
+- [react-web-worker](https://www.npmjs.com/package/@shopify/react-web-worker), a cool hook from [Shopify](https://github.com/Shopify/quilt) to use web workers on react.
+- [compressorjs](https://fengyuanchen.github.io/compressorjs/) for resizing and compressing images on the browser.
+- [react-dropzone](https://react-dropzone.js.org/) to make the dropping area for image uploading.
+- [colorthief](https://lokeshdhakar.com/projects/color-thief/) for getting a dominant color of an image fast. Used on full screen image component.
+- [exifr](https://github.com/MikeKovarik/exifr) to get exif information about images on the browser.
+- [gaussian-convolution-kernel](https://github.com/sidorares/gaussian-convolution-kernel) to generate a kernel for the unsharp mask, used in image compression.
+- [react-image-gallery](https://github.com/xiaolin/react-image-gallery) for the slidable full screen image component.
+- [react-progress-bar](https://github.com/KaterinaLupacheva/react-progress-bar) for an easy animated loading progress bar. Used when uploading images to the cloud.
+- [emailjs-com](https://www.emailjs.com/) to send emails using JavaScript.
+- [react-uuid](https://github.com/RickBr0wn/react-uuid) to generate [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier)s easily.
 
 ## State
 
@@ -207,6 +225,10 @@ TODO react context
 TODO There might be more things
 
 The image compression is made on the browser using web workers to avoid slowing down the interface.
+
+Quin tipus se li pot fer a la web tenint en compte q es fa servir free tier. quins son els limits, quant hauria de pagar el fotograf etc.
+
+uuid vs image id.
 
 # Some easter eggs
 
