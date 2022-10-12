@@ -172,6 +172,8 @@ Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.
 ## Editing images
 
 <img src="./img/admin-3.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
+![Editing images gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/admin-animation-2.gif)
+(This animation shows the interface at 2x speed).
 
 The user can easily upload new photos in a collection by dragging them in the uploading area or by selecting them from their computer or mobile. Once they are uploaded, they are sorted by the information they have. That is, show on top the pictures that have missing information.
 
@@ -232,7 +234,7 @@ Then, there are some hooks to edit the About Me page and the Collections. These 
 
 There is also a PopUp component that is used globally, so it can be used anywhere on the Administration zone without interference between the components that are using it.
 
-Finally, there is a simple hook to know when the database and background images are loaded. It is used to know when to allow the user to interact by removing the [loader screen](#website-loader).
+Finally, there is a simple hook to know when the database and background images are loaded. It is used to know when to allow user interaction by removing the [loader screen](#website-loader).
 
 ## Backend
 
