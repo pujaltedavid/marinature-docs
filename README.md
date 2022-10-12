@@ -198,7 +198,7 @@ The photographer can easily edit the About Me page. They can change either the t
 
 The app is developed with JavaScript using [ReactJs](https://reactjs.org/) library. Functional components are used. All the hosting, database and backend in more general, is made using [Firebase](https://firebase.google.com/) within its [Free Tier](https://firebase.google.com/pricing). See the [backend](#backend) section for more details.
 
-Main libraries used:
+Main libraries used in the frontend:
 
 - [react-router-dom](https://reactrouter.com/en/main) to create routes, links and make navigation easier.
 - [framer-motion](https://www.framer.com/motion/) for cool and easy animations.
@@ -218,11 +218,25 @@ Main libraries used:
 
 ## State
 
-TODO react context
+In order to handle global state or shared state with non directly related components, [React Context](https://reactjs.org/docs/context.html) is used with custom hooks. There are two different type of context, Theme context and Auth context.
+
+The Theme context is in charge of handling light/dark mode, sound effects, the type of device and the resolution it has.
+
+### Auth Context
+
+The Auth context is slightly more complex. On one hand, it handles the authentication part, like the current user, login, logout, password update and reset, and email update. As explained in [Login and Administrator zone](#login-and-administrator-zone), the password update and reset and email update has not been implemented by the frontend, but they are on the backend, so a future implementation would be easy to do.
+
+It also provides all the image data. That is, all the collections, images and their information (their dimensions, if they are hidden, deleted, etc).
+
+Then, there are some hooks to edit the About Me page and the Collections. These include adding, updating, removing a collection and adding, updating and removing a photo from a collection.
+
+There is also a PopUp component that is used globally, so it can be used anywhere on the Administration zone without interference between the components that are using it.
+
+Finally, there is a simple hook to know when the database and background images are loaded. It is used to know when to allow the user to interact by removing the [loader screen](#website-loader).
 
 ## Backend
 
-TODO There might be more things
+[Firebase](https://firebase.google.com/) is used as backend as a service. The services used are hosting, Firestore database, cloud storage and authentication.
 
 The image compression is made on the browser using web workers to avoid slowing down the interface.
 
