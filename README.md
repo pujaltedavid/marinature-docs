@@ -194,7 +194,7 @@ The photographer can easily edit the About Me page. They can change either the t
 
 # Technical aspects
 
-## Main technologies
+## Technologies
 
 The app has been developed with JavaScript using [ReactJs](https://reactjs.org/) library. Functional components are used. All the hosting, database and backend in more general, is made using [Firebase](https://firebase.google.com/) within its [Free Tier](https://firebase.google.com/pricing). See the [backend](#backend) section for more details.
 
