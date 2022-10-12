@@ -275,12 +275,12 @@ As already said, the backend as a service used is free. This includes some limit
 
 In the end, the storage limitation is usually the most restrictive. In the following example, the users open around 20 images on their visit to the website. The number of daily visitors depend on the resolution that their screens are.
 
-|  Resolution  | Load per visit | Number of daily visitors |
-| :----------: | :------------: | :----------------------: |
-|   720p HD    |      2MB       |           500            |
-| 1080p FullHD |      3MB       |           333            |
-| 1440p 2K/QHD |      4MB       |           250            |
-| 2160p 4K/UHD |      12MB      |            83            |
+|  Resolution  | Storage load per visit | Number of daily visitors |
+| :----------: | :--------------------: | :----------------------: |
+|   720p HD    |          2MB           |           500            |
+| 1080p FullHD |          3MB           |           333            |
+| 1440p 2K/QHD |          4MB           |           250            |
+| 2160p 4K/UHD |          12MB          |            83            |
 
 All of the above are approximations, as each image takes different storage.
 
