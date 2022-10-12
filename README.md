@@ -218,7 +218,7 @@ Main libraries used in the frontend:
 
 ## State
 
-In order to handle global state or shared state with non directly related components, [React Context](https://reactjs.org/docs/context.html) is used with custom hooks. There are two different type of context, Theme context and Auth context.
+In order to handle global state or shared state with non directly related components, [React Context](https://reactjs.org/docs/context.html) is used with custom hooks. There are two different types of context, Theme context and Auth context.
 
 The Theme context is in charge of handling light/dark mode, sound effects, the type of device and the resolution it has.
 
