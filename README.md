@@ -213,7 +213,7 @@ Main libraries used:
 - [gaussian-convolution-kernel](https://github.com/sidorares/gaussian-convolution-kernel) to generate a kernel for the unsharp mask, used in image compression.
 - [react-image-gallery](https://github.com/xiaolin/react-image-gallery) for the slidable full screen image component.
 - [react-progress-bar](https://github.com/KaterinaLupacheva/react-progress-bar) for an easy animated loading progress bar. Used when uploading images to the cloud.
-- [emailjs-com](https://www.emailjs.com/) to send emails using JavaScript.
+- [emailjs-com](https://www.emailjs.com/) to send emails using JavaScript and in the browser.
 - [react-uuid](https://github.com/RickBr0wn/react-uuid) to generate [uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier)s easily.
 
 ## State
