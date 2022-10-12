@@ -172,6 +172,7 @@ Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.
 ## Editing images
 
 <img src="./img/admin-3.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
+
 ![Editing images gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/admin-animation-2.gif)
 (This animation shows the interface at 2x speed).
 
