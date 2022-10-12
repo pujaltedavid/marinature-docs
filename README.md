@@ -265,7 +265,7 @@ Firebase allows the usage of [Cloud Functions](https://cloud.google.com/function
 
 Currently, the hole image compression process is made on the browser with the help of [compressorjs](https://fengyuanchen.github.io/compressorjs/) library. This includes resizing, cropping, filtering (convolving with unsharp mask) and making the compression iself. However, that comes at some cost, the hole webpage would freeze waiting for this process to finish. To avoid that, [web workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) are used. JavaScript is single threaded, but with web workers, one can do background tasks without interfering with the user interface. Using web workers, the compression process may take a little bit longer, but the user can still use the webpage and see how the process goes.
 
-### Usage of the website
+## Usage of the website
 
 As already said, the backend as a service used is free. This includes some limitations. As of October 2022, the limitations are the following:
 
