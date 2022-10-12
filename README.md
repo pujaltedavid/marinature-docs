@@ -4,7 +4,7 @@
 
 The current web app can be visited at https://marinature.tk/
 
-# Jump quickly
+### Jump quickly
 
 - [What is Marinature](#what-is-marinature)
 - [Main design features](#main-design-features)
