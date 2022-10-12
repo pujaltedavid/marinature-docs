@@ -129,7 +129,7 @@ The photographer can fill a title, scientific name and description for each imag
 
 To save the information changed, the user must click on save button in order to sync it with the cloud, otherwise the changes will be lost. The reset button restores the last saved information. There is a information message on the top right indicating whether the changes have not been saved or they have been saved correctly. If there are no changes with respect from the cloud, it does not show any message.
 
-On the left menu it is indicated whether the information about the photo is complete or not. The user can select the images from this menu to start editing their information, and they can also hide the photo or delete it. The deleted images go to a bin section that is accessible in the lower right button. From there, the images can be restored or deleted completely. This extra steps help deleting images quickly by mistake.
+On the left menu it is indicated which the information about the photo is complete. The user can select the images from this menu to start editing their information, and they can also hide the photo or delete it. The deleted images go to a trash section that is accessible in the lower right button. From there, images can be restored or deleted completely. This extra steps help deleting images quickly by mistake.
 
 <p float="left">
 <img src="./img/admin-mobile-3.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
@@ -138,7 +138,7 @@ On the left menu it is indicated whether the information about the photo is comp
 
 ### Editing About Me
 
-The photographer can easily edit the About Me page. They can change either the title of the page and the description about themself.
+The photographer can easily edit the About Me page. They can change either the title of the page and the description about themself. The same information message about changes made (from the image edition section) is visible to show cloud status.
 
 <img src="./img/admin-4.png" alt="DESKTOP ADMIN EDIT ABOUT ME">
 
