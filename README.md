@@ -286,6 +286,8 @@ All of the above are approximations, as each image takes different storage.
 
 However, the users can see more images, and then the bandwidth could be higher. Also, note that only 250 users can visit the page according to the hosting limitation **for now**. The bundle size can be compressed about 75% according to [this article](https://javascript.plainenglish.io/reduce-your-react-applications-bundle-size-by-75-with-compression-e0103abe9b69), so in a future version (where the bundle is compressed), the daily visits will be restricted to the above table about storage bandwidth.
 
+It has to be noted that these limitations only happen when using the Firebase Free Tier. Usually a photographer would pay for their website service, and then the limitations will be the ones set by the photographer themself. The amount to be paid will be set by [Firebase Pricing](https://firebase.google.com/pricing), that, since it is intended for large scale apps, it is not very expensive.
+
 # Some easter eggs
 
 These easter eggs help make the icing of the cake in this website.
