@@ -123,7 +123,13 @@ Even so, comparing to other photographer sites, [Flickr](https://www.flickrhelp.
 
 <img src="./img/admin-3.png" alt="DESKTOP ADMIN EDIT COLLECTIONS">
 
-The user can easily upload new photos in a collection by dragging them in the uploading area or by selecting them from their computer or mobile. Once they
+The user can easily upload new photos in a collection by dragging them in the uploading area or by selecting them from their computer or mobile. Once they are uploaded, they are sorted by the information they have. That is, show on top the pictures that have missing information.
+
+The photographer can fill a title, scientific name and description for each image. It is not mandatory, the layout will be shown differently depending on what information the image has. The user can write a description with up to 300 characters. It is like that to ensure the layout will always look nice when possible. The exif information about the photo is automatically scanned within the upload, and for now, it is not changable.
+
+To save the information changed, the user must click on save button in order to sync it with the cloud, otherwise the changes will be lost. The reset button restores the last saved information. There is a information message on the top right indicating whether the changes have not been saved or they have been saved correctly. If there are no changes with respect from the cloud, it does not show any message.
+
+On the left menu it is indicated whether the information about the photo is complete or not. The user can select the images from this menu to start editing their information, and they can also hide the photo or delete it. The deleted images go to a bin section that is accessible in the lower right button. From there, the images can be restored or deleted completely. This extra steps help deleting images quickly by mistake.
 
 <p float="left">
 <img src="./img/admin-mobile-3.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION" width='240' height='487'>
@@ -132,13 +138,7 @@ The user can easily upload new photos in a collection by dragging them in the up
 
 ### Editing About Me
 
-The photographer can easily edit the About Me page. They can change either the title of the page and the description about themself. Once they are uploaded, they are sorted by the information they have. That is, show on top the pictures that have missing information.
-
-The photographer can fill a title, scientific name and description for each image. It is not mandatory, the layout will be shown differently depending on what information the image has. The user can write a description with up to 300 characters. It is like that to ensure the layout will always look nice when possible. The exif information about the photo is automatically scanned within the upload, and for now, it is not changable.
-
-To save the information changed, the user must click on save button in order to sync it with the cloud, otherwise the changes will be lost. The reset button restores the last saved information. There is a information message on the top right indicating whether the changes have not been saved or they have been saved correctly. If there are no changes with respect from the cloud, it does not show any message.
-
-On the left menu it is indicated whether the information about the photo is complete or not. The user can select the images from this menu to start editing their information, and they can also hide the photo or delete it. The deleted images go to a bin section that is accessible in the lower right button. From there, the images can be restored or deleted completely. This extra steps help deleting images quickly by mistake.
+The photographer can easily edit the About Me page. They can change either the title of the page and the description about themself.
 
 <img src="./img/admin-4.png" alt="DESKTOP ADMIN EDIT ABOUT ME">
 
