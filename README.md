@@ -4,7 +4,16 @@
 
 The current web app can be visited at https://marinature.tk/
 
-# What is marinature
+# Jump quickly
+
+[What is Marinature](#what-is-marinature)  
+[Main design features](#main-design-features)
+[Low connection friendly](#low-connection-friendly)
+[Login and Administrator zone](#login-and-administrator-zone)
+[Technical aspects](#technical-aspects)
+[Some easter eggs](#some-easter-eggs)
+
+# What is Marinature
 
 Marinature is a portfolio from a photographer called Marina Pujalte. The photographer shoots mainly wildlife photography, so one can figure out where the name comes from.
 
@@ -94,6 +103,47 @@ The little camera icon on lower left opens the exif menu. This menu shows the ca
 <img src="./img/image-visualization-4.png" alt="MOBILE FULL SCREEN IMAGE VISUALIZATION EXIF MENU" width='240' height='488'>
 </p>
 
+# Low connection friendly
+
+## Website loader
+
+The bundle of the hole website is lower than 300kB, however the user may not have a good internet connection and wait for the page to load. Also, the background image has to be considered and the information from the database. There is an animated loader for the website that dissappears when the bundle, the background image and the data from the database has been loaded.
+This avoids showing the website without a background, or prevent interaction before loading the database information.
+
+![Loader animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/loader.gif)
+
+## Image compression
+
+Whenever the owner uploads an image, several versions of that image are created. Some mantaining the original aspect ratio and some others are cropped as square, the ones that act as a miniature.
+Each image is sharpened using a unsharp mask (implemented via kernel and convolution), compressed and converted into .webp type, as they are intended to be seen on the web.
+
+The following table shows all the sizes:
+
+| Full size | Fixed Width size | Resolution name |
+| :-------: | :--------------: | :-------------: |
+|  LZ-FULL  |      200px       |  Lazy loading   |
+|  FULL-XS  |      480px       |       SD        |
+|  FULL-S   |      720px       |       HD        |
+|  FULL-M   |      1080px      |     FullHD      |
+|  FULL-L   |      1280px      |      WUXGA      |
+|  FULL-XL  |      1440px      |     2k/QHD      |
+| FULL-XXL  |      2160px      |     4k/UHD      |
+
+| Square size |  Size   |
+| :---------: | :-----: |
+|    LZ-SQ    |  50x50  |
+|    SQ-S     |  50x50  |
+|    SQ-M     | 200x200 |
+|    SQ-L     | 400x400 |
+
+So, for each user a different image may be loaded. For example, on a 1080p screen, the M version will be loaded, and on a low-end laptop a XS may be loaded. The user gets the image that their screen needs. This helps reducing loading times, data and backend bandwidth.
+
+Note that there is also a lazy loading version. The lazy loading is a very low quality image, around 0.5 kB for miniature and less than 3kB for the original. This leads to the following section.
+
+## Lazy loading images
+
+If a user has poor connectivity, an image can take some seconds to load (even after compression). So, the user is shown with a preview of the image in order to say "Hey, here is an image that is loading". This preview is the lazy loading image, that is a low quality and blurred version of the image that is loading. Once the original image is loaded, it is shown on top of the lazy loading.
+
 # Login and Administrator zone
 
 When entering the [Admin zone](https://marinature.tk/admin), a username and password is asked. This account is created by the web developer and no one can create accounts other than them. It is intended to be used by the photographer to manage all his collections, photos and photo descriptions.
@@ -141,47 +191,6 @@ On the left menu it is indicated which the information about the photo is comple
 The photographer can easily edit the About Me page. They can change either the title of the page and the description about themself. The same information message about changes made (from the image edition section) is visible to show cloud status.
 
 <img src="./img/admin-4.png" alt="DESKTOP ADMIN EDIT ABOUT ME">
-
-# Low connection friendly
-
-## Website loader
-
-The bundle of the hole website is lower than 300kB, however the user may not have a good internet connection and wait for the page to load. Also, the background image has to be considered and the information from the database. There is an animated loader for the website that dissappears when the bundle, the background image and the data from the database has been loaded.
-This avoids showing the website without a background, or prevent interaction before loading the database information.
-
-![Loader animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/loader.gif)
-
-## Image compression
-
-Whenever the owner uploads an image, several versions of that image are created. Some mantaining the original aspect ratio and some others are cropped as square, the ones that act as a miniature.
-Each image is sharpened using a unsharp mask (implemented via kernel and convolution), compressed and converted into .webp type, as they are intended to be seen on the web.
-
-The following table shows all the sizes:
-
-| Full size | Fixed Width size | Resolution name |
-| :-------: | :--------------: | :-------------: |
-|  LZ-FULL  |      200px       |  Lazy loading   |
-|  FULL-XS  |      480px       |       SD        |
-|  FULL-S   |      720px       |       HD        |
-|  FULL-M   |      1080px      |     FullHD      |
-|  FULL-L   |      1280px      |      WUXGA      |
-|  FULL-XL  |      1440px      |     2k/QHD      |
-| FULL-XXL  |      2160px      |     4k/UHD      |
-
-| Square size |  Size   |
-| :---------: | :-----: |
-|    LZ-SQ    |  50x50  |
-|    SQ-S     |  50x50  |
-|    SQ-M     | 200x200 |
-|    SQ-L     | 400x400 |
-
-So, for each user a different image may be loaded. For example, on a 1080p screen, the M version will be loaded, and on a low-end laptop a XS may be loaded. The user gets the image that their screen needs. This helps reducing loading times, data and backend bandwidth.
-
-Note that there is also a lazy loading version. The lazy loading is a very low quality image, around 0.5 kB for miniature and less than 3kB for the original. This leads to the following section.
-
-## Lazy loading images
-
-If a user has poor connectivity, an image can take some seconds to load (even after compression). So, the user is shown with a preview of the image in order to say "Hey, here is an image that is loading". This preview is the lazy loading image, that is a low quality and blurred version of the image that is loading. Once the original image is loaded, it is shown on top of the lazy loading.
 
 # Technical aspects
 
