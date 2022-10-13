@@ -146,6 +146,8 @@ Note that there is also a lazy loading version. The lazy loading is a very low q
 
 ## Lazy loading images
 
+![Lazy loading image animation gif](https://github.com/pujaltedavid/marinature-docs/blob/main/img/animation-lazyload.gif)
+
 If a user has poor connectivity, an image can take some seconds to load (even after compression). So, the user is shown with a preview of the image in order to say "Hey, here is an image that is loading". This preview is the lazy loading image, that is a low quality and blurred version of the image that is loading. Once the original image is loaded, it is shown on top of the lazy loading.
 
 # Login and Administrator zone
