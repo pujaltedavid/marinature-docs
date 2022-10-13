@@ -246,7 +246,7 @@ Finally, there is a simple hook to know when the database and background images 
 
 ## Backend
 
-[Firebase](https://firebase.google.com/) is used as backend as a service. The services used are [hosting](https://firebase.google.com/docs/hosting), [Cloud Firestore database](https://firebase.google.com/docs/firestore), [Cloud Storage](https://cloud.google.com/storage) and [authentication](https://firebase.google.com/docs/auth). The architecture is oriented in **price optimization** and ease to use.
+[Firebase](https://firebase.google.com/) is used as backend as a service. The services used are [Hosting](https://firebase.google.com/docs/hosting), [Cloud Firestore](https://firebase.google.com/docs/firestore) database, [Cloud Storage](https://cloud.google.com/storage) and [authentication](https://firebase.google.com/docs/auth). The architecture is oriented in **price optimization** and ease to use.
 
 ### Database
 
@@ -258,7 +258,7 @@ The other data contains information of the About Me page, and the id of the last
 
 ### Storage
 
-The images are stored on [Cloud Storage](https://cloud.google.com/storage) and identified by its id and resolution type (see [Image Compression section](#image-compression)). This way, the links to the images are not needed to be stored on the database, but dinamically generated depending on the id and resolution needed.
+The images are stored on Google Cloud Storage and identified by its id and resolution type (see [Image Compression section](#image-compression)). This way, the links to the images are not needed to be stored on the database, but dinamically generated depending on the id and resolution needed.
 
 ### Image identification
 
