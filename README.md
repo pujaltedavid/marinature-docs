@@ -56,7 +56,7 @@ So, now we know that the majority of spring-like animations in the web page are 
 
 ## Responsive
 
-The app uses the [react-device-detect](https://github.com/duskload/react-device-detect) library. This helps knowing whether the user is visiting the site from desktop, mobile, tablet etc. Some components of the app are rendered differently from mobile or desktop. However, if the desktop has a mobile shaped screen, it renders the mobile version too. But if the user visits from a mobile or tablet with an horizontal screen, it uses also the mobile version.
+The app uses the [react-device-detect](https://github.com/duskload/react-device-detect#react-device-detect) library. This helps knowing whether the user is visiting the site from desktop, mobile, tablet etc. Some components of the app are rendered differently from mobile or desktop. However, if the desktop has a mobile shaped screen, it renders the mobile version too. But if the user visits from a mobile or tablet with an horizontal screen, it uses also the mobile version.
 
 So, both the desktop and mobile version are responsive, but some components are better to be shown some way on mobile and some others on desktop.
 
