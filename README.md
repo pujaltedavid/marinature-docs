@@ -121,15 +121,15 @@ Each image is sharpened using an unsharp mask (implemented via gaussian kernel a
 
 The following table shows all the sizes:
 
-| Full size | Fixed Width size | Resolution name |
-| :-------: | :--------------: | :-------------: |
-|  LZ-FULL  |      200px       |  Lazy loading   |
-|  FULL-XS  |      480px       |       SD        |
-|  FULL-S   |      720px       |       HD        |
-|  FULL-M   |      1080px      |     FullHD      |
-|  FULL-L   |      1280px      |      WUXGA      |
-|  FULL-XL  |      1440px      |     2K/QHD      |
-| FULL-XXL  |      2160px      |     4K/UHD      |
+| Full size | Minimum size | Resolution name |
+| :-------: | :----------: | :-------------: |
+|  LZ-FULL  |    200px     |  Lazy loading   |
+|  FULL-XS  |    480px     |       SD        |
+|  FULL-S   |    720px     |       HD        |
+|  FULL-M   |    1080px    |     FullHD      |
+|  FULL-L   |    1280px    |      WUXGA      |
+|  FULL-XL  |    1440px    |     2K/QHD      |
+| FULL-XXL  |    2160px    |     4K/UHD      |
 
 | Square size |  Size   |
 | :---------: | :-----: |
