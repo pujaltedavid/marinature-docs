@@ -76,7 +76,7 @@ There are other differences between mobile and desktop, like the layout or shape
 
 ## Image Visualization
 
-This component was not trivial to do. It fact, it is the most important one, as the webpage is intended to visualize images. It has two modes, the normal and fullscreen mode.
+This component was not trivial to do. It fact, it is the most important one, as the webpage is intended to visualize images. It has two modes, the normal and full screen mode.
 
 ### Normal Mode
 
