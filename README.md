@@ -279,7 +279,7 @@ Currently, the hole image compression process is made on the browser with the he
 As already said, the backend as a service used is free. This includes some limitations. As of October 2022, the limitations are the following:
 
 - 10GB for **hosting** and 360MB daily hosting load. Since the bundle size of the app is about 300KB, a total approximation of 1200 users can visit the app daily according to this limit.
-- 1GB for the **database** (without images) with a total of 10GB/month bandwidth, 50K daily reads and 20K daily writes. The writes are not a problem, since the photographer only updates their photos spontaneously. The reads depend on the number of collections, with 10 collections, a total of 5K daily users would be able to visit the app.
+- 1GB for the **database** (without images) with a total of 10GB/month bandwidth, 50K daily reads and 20K daily writes. The writes are not a problem, since the photographer only updates their photos spontaneously. The reads depend on the number of collections, with 10 collections, a total of 5K daily users would be able to visit the app. About the 10GB/month bandwith (or about 333MB/day), we could load the database about 1000 times, since for now it takes about 30KB.
 - 5GB for **storage** (the images itself). They allow about 3500 photos, taking into account that each photo contains 11 image files (see [Image Compression](#image-compression) section). The set of 11 image files weight about 1.4MB on average. A total of 1GB/day of bandwidth is allowed.
 
 In the end, the storage limitation is the most restrictive. In the following example, the users open around 20 images on their average visit to the website. The number of daily visitors depend on the resolution that their screens are.
