@@ -271,11 +271,11 @@ Currently, the hole image compression process is made on the browser with the he
 
 As already said, the backend as a service used is free. This includes some limitations. As of October 2022, the limitations are the following:
 
-- 10GB for **hosting** and 360MB daily hosting load. Since the bundle size of the app is about 1.4MB, a total approximation of 250 users can visit the app daily according to this limit.
+- 10GB for **hosting** and 360MB daily hosting load. Since the bundle size of the app is about 300KB, a total approximation of 1200 users can visit the app daily according to this limit.
 - 1GB for the **database** (without images) with a total of 10GB/month bandwidth, 50K daily reads and 20K daily writes. The writes are not a problem, since the photographer only updates their photos spontaneously. The reads depend on the number of collections, with 10 collections, a total of 5K daily users would be able to visit the app.
 - 5GB for **storage** (the images itself). They allow about 3500 photos, taking into account that each photo contains 11 image files (see [Image Compression](#image-compression) section). The set of 11 image files weight about 1.4MB. A total of 1GB/day of bandwidth is allowed.
 
-In the end, the storage limitation is usually the most restrictive. In the following example, the users open around 20 images on their visit to the website. The number of daily visitors depend on the resolution that their screens are.
+In the end, the storage limitation is the most restrictive. In the following example, the users open around 20 images on their visit to the website. The number of daily visitors depend on the resolution that their screens are.
 
 |  Resolution  | Storage load per visit | Number of daily visitors |
 | :----------: | :--------------------: | :----------------------: |
@@ -286,7 +286,7 @@ In the end, the storage limitation is usually the most restrictive. In the follo
 
 All of the above are approximations, as each image takes different storage.
 
-However, the users can see more images, and then the bandwidth could be higher. Also, note that only 250 users can visit the page according to the hosting limitation **for now**. The bundle size can be compressed about 75% according to [this article](https://javascript.plainenglish.io/reduce-your-react-applications-bundle-size-by-75-with-compression-e0103abe9b69), so in a future version (where the bundle is compressed), the daily visits will be restricted to the above table about storage bandwidth.
+However, the users can see more images, and then the bandwidth could be higher, allowing less visitors per day.
 
 It has to be noted that these limitations only happen when using the Firebase Free Tier. Usually a photographer would pay for their website service, and then the limitations will be the ones set by the photographer themself. The amount to be paid will be set by [Firebase Pricing](https://firebase.google.com/pricing), that, since it is intended for large scale apps, it is not very expensive.
 
