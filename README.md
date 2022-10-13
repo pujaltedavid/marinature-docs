@@ -238,7 +238,7 @@ The Auth context is slightly more complex. On one hand, it handles the authentic
 
 It also provides all the image data. That is, all the collections, images and their information (their dimensions, if they are hidden, deleted, etc).
 
-Then, there are some hooks to edit the About Me page and the Collections. These include adding, updating, removing collections or images.
+Then, there are some hooks to edit the About Me page and the Collections. These include adding, updating and removing collections or images.
 
 There is also a PopUp component that is used globally, so it can be used anywhere on the Administration zone without interference between the components that are using it.
 
