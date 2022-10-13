@@ -294,7 +294,7 @@ In the end, the storage limitation is the most restrictive. In the following exa
 
 All of the above are approximations, as each image takes different storage.
 
-According to [last year global screen sizes statistics](https://gs.statcounter.com/screen-resolution-stats#monthly-202109-202209-bar) from statcounter GlobalStats, an approximate distribution of resolution sizes can be made. This distribution leads about 48.38% of SD, 33.25% of HD and 18.37% of FullHD. Redistributing the bandwidth load this way, the average bandwidth load is about 1.6273MB, leading a total of 614 daily visitors. Note that this approximation uses global stats, and usually people who visits photographer websites tend to have higher resolution screens.
+According to [last year global screen sizes statistics](https://gs.statcounter.com/screen-resolution-stats#monthly-202109-202209-bar) from statcounter GlobalStats, an approximate distribution of resolution sizes can be made. This distribution leads about 48.38% of SD, 33.25% of HD and 18.37% of FullHD. Redistributing the bandwidth load this way, the average bandwidth load is about 1.6273MB, leading a total of **614 daily visitors**. Note that this approximation uses global stats, and usually people who visits photographer websites tend to have higher resolution screens.
 
 However, the users can see more images, and then the bandwidth could be higher, allowing less visitors per day.
 
