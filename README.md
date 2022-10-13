@@ -128,8 +128,8 @@ The following table shows all the sizes:
 |  FULL-S   |      720px       |       HD        |
 |  FULL-M   |      1080px      |     FullHD      |
 |  FULL-L   |      1280px      |      WUXGA      |
-|  FULL-XL  |      1440px      |     2k/QHD      |
-| FULL-XXL  |      2160px      |     4k/UHD      |
+|  FULL-XL  |      1440px      |     2K/QHD      |
+| FULL-XXL  |      2160px      |     4K/UHD      |
 
 | Square size |  Size   |
 | :---------: | :-----: |
