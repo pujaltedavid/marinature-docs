@@ -15,7 +15,7 @@ The current web app can be visited at https://marinature.tk/
 
 # What is Marinature
 
-Marinature is a portfolio from a photographer called Marina Pujalte. The photographer shoots mainly wildlife photography, so one can figure out where the name comes from.
+Marinature is a portfolio from a photographer called Marina Pujalte. She shoots mainly wildlife photography, so one can figure out where the name comes from.
 
 The website is composed of some collections that represent photography albums, characterized by their topics. Each collection has a bunch of photos, that are separated into different pages if there are too much photos in a single album.
 
