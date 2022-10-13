@@ -89,7 +89,7 @@ Also, this component is slightly different on desktop and mobile. The major diff
 <img src="./img/image-visualization-3.png" alt="MOBILE IMAGE VISUALIZATION" width='240' height='488'>
 </p>
 
-One thing to consider is that this component is not finished yet, as there are some not common layout combinations that can be improved, like unusual image and screen aspect ratios.
+One thing to consider is that this component is not finished yet, as there are some uncommon layout combinations that can be improved, like unusual image and screen aspect ratios.
 
 ### Full Screen Mode
 
