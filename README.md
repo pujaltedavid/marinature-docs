@@ -152,7 +152,7 @@ If a user has poor connectivity, an image can take some seconds to load (even af
 
 # Login and Administrator zone
 
-When entering the [Admin zone](https://marinature.tk/admin), a username and password is asked. This account is created by the web developer and no one can create accounts other than them. It is intended to be used by the photographer to manage all his collections, photos and photo descriptions.
+When entering the [Admin zone](https://marinature.tk/admin), a username and password is asked. This account is created by the web developer and no one can create accounts other than them. It is intended to be used only by the photographer to manage all his collections, photos and photo descriptions.
 
 Once they have logged in, the dashboard is shown.
 <img src="./img/admin-1.png" alt="DESKTOP ADMIN DASHBOARD">
