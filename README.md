@@ -21,7 +21,7 @@ The website is composed of some collections that represent photography albums, c
 
 It focuses mainly on user interaction and experience, where the user clicks or taps and sees animations through all the website.
 
-It has an [administration section](#login-and-administrator-zone) where the owner of the website (in this case the photographer) manages all his collections, uploads their photos and edit their descriptions. Without any knowledge about programming or how the website works, just an easy to use interface.
+It has an [administration section](#login-and-administrator-zone) where the owner of the website (in this case the photographer) manages all the collections, uploads their photos and edit the descriptions. All of that without any knowledge about programming or how the website internally works, just an easy to use interface.
 
 # Main design features
 
