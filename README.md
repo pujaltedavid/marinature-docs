@@ -140,6 +140,8 @@ The following table shows all the sizes:
 
 So, for each user a different image may be loaded. For example, on a 1080p screen, the M version will be loaded, and on a low-end laptop a XS may be loaded. The user gets the image that their screen needs. This helps reducing loading times, data and backend bandwidth.
 
+Learn more about this kind of compression with [this](https://github.com/pujaltedavid/python-image-compressor/#python-image-compressor) python version created by the same author.
+
 Note that there is also a lazy loading version. The lazy loading is a very low quality image, around 0.5 kB for miniature and less than 3kB for the original. This leads to the following section.
 
 ## Lazy loading images
