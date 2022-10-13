@@ -252,7 +252,7 @@ Finally, there is a simple hook to know when the database and background images 
 
 Firestore database is used in order to store all the data except for images and the web itself. Firestore works with [collections and documents](https://firebase.google.com/docs/firestore/data-model). A collection contains documents. Documents are small pieces of data that are intended to be read, updated or deleted quickly without interference between each other.
 
-There are two collections in this database, one for the image albums and other for some extra data. Then, inside the collection collections, there is a document for each image album, that contains information about the title, visibility and deletion, and also the images itself. Each image is identified uniquely by its id. Inside each image there is a bunch of information about exif, title, description, dimensions, etc.
+There are two collections in this database, one for the image albums and other for some extra data. Then, inside the collection collections, there is a document for each image album that contains information about the title, visibility and deletion, and the images itself. Each image is identified uniquely by its id. Inside each image there is a bunch of information about exif, title, description, dimensions, etc.
 
 The other data contains information of the About Me page, and the id of the last image.
 
