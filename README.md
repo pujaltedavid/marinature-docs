@@ -246,7 +246,7 @@ Finally, there is a simple hook to know when the database and background images 
 
 ## Backend
 
-[Firebase](https://firebase.google.com/) is used as backend as a service. The services used are hosting, Firestore database, cloud storage and authentication. The architecture is oriented in **price optimization** and ease to use.
+[Firebase](https://firebase.google.com/) is used as backend as a service. The services used are [hosting](https://firebase.google.com/docs/hosting), [Cloud Firestore database](https://firebase.google.com/docs/firestore), [Cloud Storage](https://cloud.google.com/storage) and [authentication](https://firebase.google.com/docs/auth). The architecture is oriented in **price optimization** and ease to use.
 
 ### Database
 
